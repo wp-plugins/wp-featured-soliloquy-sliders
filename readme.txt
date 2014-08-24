@@ -27,19 +27,12 @@ This section describes how to install the plugin and get it working.
 
 == Usage ==
 
-Page or Post meta has a key called `_t1k_featured_slider`.  A very simple way to render the slider is like this:
+Page or Post meta has a key called `_t1k_featured_slider`.	A very simple way to render the slider is like this:
 
 `<?php
 	$meta = get_post_custom();
-	if ( function_exists( 'soliloquy' ) ) { soliloquy( absint( $meta['_t1k_featured_slider'][0] ) ); }
-?>`
-
-A better way might be to test for the value first:
-
-`<?php
-	$meta = get_post_custom();
-	if ( is_numeric( $meta['_t1k_featured_slider'][0] ) ) {
-		if ( function_exists( 'soliloquy' ) ) { soliloquy( absint( $meta['_t1k_featured_slider'][0] ) ); }
+	if ( isset( $meta['_t1k_featured_slider'][0] ) && is_numeric( $meta['_t1k_featured_slider'][0] ) && function_exists( 'soliloquy' ) ) {
+		soliloquy( absint( $meta['_t1k_featured_slider'][0] ) );
 	}
 ?>`
 
