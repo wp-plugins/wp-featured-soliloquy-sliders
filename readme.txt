@@ -2,8 +2,8 @@
 Contributors: topher1kenobe
 Tags: posts, pages, soliloquy, sliders, featured
 Requires at least: 3.0
-Tested up to: 3.9.2
-Stable tag: 1.0
+Tested up to: 4.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ I haven't been asked any yet.  :)
 2. The Featured Sliders meta box when you *do* have Sliders created in Soliloquy.
 
 == Changelog ==
+
+= 1.1 =
+Check for WP 4.0
 
 = 1.0 =
 * Initial release.

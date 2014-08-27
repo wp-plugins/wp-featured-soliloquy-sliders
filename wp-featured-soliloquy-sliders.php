@@ -4,7 +4,7 @@
  * Plugin URI: http://topher1kenobe.com
  * Description: Provides a mechanism for associating a Soliloquy Slider with a Page or Post
  * Author: Topher
- * Version: 1.0
+ * Version: 1.1
  * Author URI: http://codeventure.net
  * Text Domain: wp-featured-soliloquy
  */
